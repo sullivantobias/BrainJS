@@ -1,0 +1,22 @@
+{
+  "name": "brainjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullivantobias/BrainJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sullivantobias/BrainJS/issues"
+  },
+  "homepage": "https://github.com/sullivantobias/BrainJS#readme",
+  "devDependencies": {
+    "brain.js": "^2.0.0-alpha.9"
+  }
+}
