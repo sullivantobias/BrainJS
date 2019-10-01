@@ -30,7 +30,7 @@ const questionInput = nn => {
 const main = async () => {
   await questionLayers();
 
-  const neuralNetwork = new BrainJS.NeuralNetwork({ hiddenLayers: [ hiddenLayers ] });
+  const neuralNetwork = new BrainJS.NeuralNetwork({ hiddenLayers: [hiddenLayers] });
 
   const data = [
     { input: [0, 0], output: [0] },
