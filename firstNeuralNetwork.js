@@ -1,6 +1,6 @@
 const BrainJS = require('Brain.js');
 
-const neuralNetwork = new BrainJS.NeuralNetwork({ });
+const neuralNetwork = new BrainJS.NeuralNetwork({ hiddenLayers: [3] });
 
 const data = [
   { input: [0, 0], output: [0] },
